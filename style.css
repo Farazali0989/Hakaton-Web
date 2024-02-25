@@ -1,0 +1,3361 @@
+body {
+    font-family: nunito, sans-serif;
+}
+
+.image-theory {
+    background-image: url("./images/image.jpg");
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.487);
+}
+
+.images-main img {
+    width: 40%;
+}
+
+.bg-2 {
+    background-image: url("https://demo.epic-webdesign.com/tf-launchpage/v3/images/bg3.jpg");
+    height: 90vh;
+}
+
+.attachments {
+    height: 90vh;
+    background-color: rgba(222, 41, 41, 0.905);
+}
+
+#nav-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#launch-logo {
+    color: #e52f37;
+    padding-left: 5rem;
+}
+
+#start-btn {
+    background-color: #e52f37;
+    color: white;
+    border-color: #e52f37;
+    border: thin;
+    margin-right: 8rem;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    transition: all 0.45s;
+}
+
+#start-btn:hover {
+    border-color: #e52f37;
+    background-color: #ffffff;
+    color: #e52f37;
+}
+
+#danger-btn {
+    background-color: #e52f37;
+    color: white;
+    border-color: #e52f37;
+    border: thin;
+    margin-right: 8rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    transition: all 0.4s;
+}
+
+#danger-btn:hover {
+    background-color: #d61a23;
+}
+
+#main-container {
+    background-color: #ffffff;
+}
+
+#input-main-D {
+    padding-right: 11rem;
+    margin-left: 6.3rem;
+}
+
+#main-h1 {
+    text-align: center;
+    text-shadow: 4px 3px 0px -2px rgba(23, 22, 22, 0.75);
+}
+
+#main-paragraph {
+    text-align: center;
+}
+
+#main-images {
+    object-fit: contain;
+}
+
+#featured-para {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 8rem;
+}
+
+#main-img-1 {
+    opacity: 0.5;
+    width: 20%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#main-img-1:hover,
+#main-img-2:hover,
+#main-img-3:hover,
+#main-img-4:hover {
+    opacity: 1;
+}
+
+#main-img-2 {
+    margin-left: -80px;
+    opacity: 0.5;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#main-img-3 {
+    margin-left: -70px;
+    opacity: 0.5;
+    width: 20%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#main-img-4 {
+    margin-left: -90px;
+    opacity: 0.5;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#what-container {
+    background-color: #F1FAFF;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.what {
+    color: #071E55;
+}
+
+.discover-para {
+    font-size: 20px;
+    color: #7C8595;
+}
+
+#main-res {
+    width: 100%;
+}
+
+.lorem-google {
+    color: #7C8595;
+}
+
+#icon-google {
+    color: #ffffff;
+    border: 1px solid black;
+    background-color: #1E90FF;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.brand-lorem {
+    color: #7C8595;
+}
+
+#brand-icon {
+    color: #ffffff;
+    border: 1px solid black;
+    background-color: #e52f37;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.graphic-lorem {
+    color: #7C8595;
+}
+
+#graphic-icon {
+    color: #ffffff;
+    border: 1px solid black;
+    background-color: #27B36A;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.options {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#clients-img1 {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 21px 1px rgba(128, 125, 125, 0.75);
+}
+
+.client-img-h {
+    color: #071E55;
+}
+
+.client-img-p {
+    font-size: 18px;
+    color: #7C8595;
+}
+
+#correct-icon1 {
+    padding-right: 10px;
+    color: #e52f37;
+}
+
+#correct-icon2 {
+    color: #e52f37;
+}
+
+#correct-icon3 {
+    color: #e52f37;
+}
+
+.list-lorem1 {
+    color: #7C8595;
+    font-size: 18px;
+}
+
+.discover {
+    padding: 12px;
+    padding-left: 17px;
+    padding-bottom: 13px;
+    padding-right: 17px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 29px;
+    background-color: #e52f37;
+    color: #ffffff;
+    border: none;
+    transition: all ease-in-out 0.25s;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.discover:hover {
+    box-shadow: 4px 4px 5px 0px rgba(46, 41, 41, 0.75);
+}
+
+#client-img-2-main {
+    width: 105%;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    margin-left: 10px;
+}
+
+#row-div-clients {
+    background-color: #F1FAFF;
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+    padding-top: 3.3rem;
+    /* padding-left: 3rem; */
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+.box1 {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.box1:active {
+    background-color: #ffffff;
+}
+
+#chart-icon {
+    border: 1px solid rgb(234, 234, 234);
+    background-color: #ffffff;
+    color: #1E90FF;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#network-icon {
+    padding-right: 0.5rem;
+    border: 1px solid rgb(234, 234, 234);
+    background-color: #ffffff;
+    color: #e52f37;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#rocket-icon {
+    padding-right: 1.2rem;
+    border: 1px solid rgb(234, 234, 234);
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #27B36A;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.rocket-para {
+    font-size: 17px;
+    color: #7C8595;
+    padding-left: 4rem;
+}
+
+.network-para {
+    font-size: 17px;
+    color: #7C8595;
+    padding-bottom: 2.8rem;
+    padding-left: 4rem;
+}
+
+.chart-para {
+    font-size: 17px;
+    color: #7C8595;
+    padding-bottom: 2.8rem;
+    padding-left: 4rem;
+}
+
+#all-feedback {
+    padding-top: 7rem;
+}
+
+#icon-1 {
+    padding-left: 8rem;
+    color: #ffffff;
+}
+
+#icon-2 {
+    padding-left: 6rem;
+    color: #ffffff;
+}
+
+#icon-3 {
+    padding-left: 2.5rem;
+    color: #ffffff;
+}
+
+#icon-4 {
+    padding-right: 10rem;
+    color: #ffffff;
+}
+
+.code {
+    font-weight: 600;
+}
+
+.facts-h {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.coder1 {
+    padding: 10px;
+    padding-bottom: 30px;
+    border-left: 6px solid #27B36A;
+    cursor: pointer;
+    box-shadow: 3px 23px 45px -10px rgba(168, 168, 168, 0.75);
+    background-color: #ffffff;
+    margin-top: 2rem;
+
+}
+
+.coder2 {
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-left-width: 6px;
+    border-left-color: #27B36A;
+    border-left: 6px solid #27B36A;
+    cursor: pointer;
+    box-shadow: 3px 23px 45px -10px rgba(168, 168, 168, 0.75);
+    background-color: #ffffff;
+
+}
+
+.coder3 {
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-left: 6px solid #27B36A;
+    cursor: pointer;
+    box-shadow: 3px 23px 45px -10px rgba(168, 168, 168, 0.75);
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+
+}
+
+#smith-img {
+    width: 12%;
+    border-radius: 30px;
+}
+
+#john-img {
+    width: 12%;
+    border-radius: 30px;
+}
+
+#page-img {
+    width: 12%;
+    border-radius: 30px;
+}
+
+.smith-p1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.john-p1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.page-p1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.smith-p2 {
+    color: #27B36A;
+}
+
+.john-p2 {
+    color: #27B36A;
+}
+
+.page-p2 {
+    color: #27B36A;
+}
+
+#flex-main-container {
+    width: 100%;
+    margin-right: 10rem;
+    background-color: #F1FAFF;
+}
+
+.people-heading {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color: #071E55;
+}
+
+.lorem-rate {
+    padding-left: 1rem;
+    color: #7C8595;
+}
+
+.star-box {
+    padding-left: 1rem;
+}
+
+#all-stars1,
+#all-stars-2 {
+    color: rgb(255, 217, 0);
+}
+
+#all-stars-3 {
+    color: rgb(255, 217, 0)
+}
+
+#main-clock-img {
+    width: 90%;
+    height: 90%;
+}
+
+.portfolio {
+    text-align: center;
+    color: #071E55;
+}
+
+.lorem-portfolio {
+    color: #7C8595;
+}
+
+.main-color-container {
+    width: 100%;
+    background-color: #F1FAFF;
+    margin-bottom: 4rem;
+}
+
+.flex-discover-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.card1 {
+    border: 1px solid black;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 23px 45px -10px rgba(168, 168, 168, 0.75);
+}
+
+.card2 {
+    border: 1px solid black;
+    margin-left: 10px;
+    border: none;
+    box-shadow: 3px 23px 45px -10px rgba(168, 168, 168, 0.75);
+    cursor: pointer;
+}
+
+.card3 {
+    border: 1px solid black;
+    margin-left: 10px;
+    border: none;
+    box-shadow: 3px 23px 45px -10px rgba(168, 168, 168, 0.75);
+    cursor: pointer;
+
+}
+
+#img-1-seo {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-2-seo {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-3-seo {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #071E55;
+}
+
+.work-1 {
+    text-align: center;
+    font-size: 17px;
+    color: #7C8595;
+    font-style: italic;
+    border-bottom: 2px solid #e52f37;
+    padding-bottom: 10px;
+}
+
+.work-lorem-1,
+.work-lorem-2,
+.work-lorem-3 {
+    text-align: center;
+    font-size: 17px;
+    color: #7C8595;
+}
+
+.team-h {
+    color: #071E55;
+    text-align: center;
+}
+
+.discover-seo {
+    font-size: 18px;
+    color: #7C8595;
+    text-align: center;
+}
+
+.bg-3 {
+    background-image: url("https://demo.epic-webdesign.com/tf-launchpage/v3/images/bg3.jpg");
+    height: 100vh;
+    width: 100%;
+}
+
+.attachments-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(222, 41, 41, 0.576);
+}
+
+.facts-h {
+    font-size: 34px;
+    padding-top: 8rem;
+}
+
+.lorem-a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#award-h {
+    margin-top: 4rem;
+}
+
+.discover-btn {
+    margin-right: 1.5rem;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #e52f37;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+.touch-btn {
+    margin-right: 1.5rem;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    border-width: thin;
+    background-color: #e52f37;
+    font-weight: 600;
+    transition: all ease-in-out 0.4s;
+}
+
+.touch-btn:hover {
+    color: #e52f37;
+    background-color: #ffffff;
+}
+
+#main-1 {
+    color: #a9d129;
+    font-size: 40px;
+}
+
+#main-2 {
+    color: #50a0d2;
+    font-size: 40px;
+}
+
+#main-3 {
+    color: #fe9c24;
+    font-size: 40px;
+}
+
+#main-4 {
+    color: #3473b8;
+    font-size: 40px;
+}
+
+#main-5 {
+    color: #fc6a3f;
+    font-size: 40px;
+}
+
+#main-6 {
+    color: #a9d129;
+    font-size: 40px;
+}
+
+.features-h {
+    text-align: center;
+    color: #071E55;
+}
+
+.features-para {
+    text-align: center;
+    color: #7C8595;
+    font-size: 19px;
+    padding-bottom: 2rem;
+}
+
+#feature-1 {
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+.tool {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tool-p {
+    font-size: 17;
+    color: #7C8595;
+}
+
+#feature-3 {
+    margin-left: 6rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+#main-row-paid {
+    background-color: #F1FAFF;
+    padding: 2rem;
+}
+
+.theory-h {
+    color: #071E55;
+    font-weight: 600;
+}
+
+.theory-lorem {
+    color: #7C8595;
+    font-size: 17px;
+}
+
+.container {
+    width: 100%;
+}
+
+#card-1 {
+    border: 1px solid rgb(181, 181, 181);
+    text-align: center;
+    padding-top: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+
+}
+
+.monthly {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dollar {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.pm {
+    color: #7C8595;
+    font-size: 17px;
+}
+
+.started-1 {
+    border: none;
+    border-radius: 35px;
+    background-color: #ffffff;
+    color: #e52f37;
+    padding: 1rem;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-weight: 600;
+    transition: all ease-in-out 0.4s;
+}
+
+.last {
+    color: #7C8595;
+    font-size: 16px;
+}
+
+#card-2 {
+    border: 1px solid rgb(181, 181, 181);
+    text-align: center;
+    padding-top: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.monthly-2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dollar-2 {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.pm-2 {
+    color: #7C8595;
+    font-size: 17px;
+}
+
+.started-2 {
+    border-color: #e52f37;
+    border-bottom-color: #e52f37;
+    border-width: thin;
+    border-radius: 35px;
+    background-color: #e52f37;
+    color: #ffffff;
+    padding: 1rem;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-weight: 600;
+    transition: all ease-in-out 0.4s;
+}
+
+.started-2:hover {
+    background-color: #ffffff;
+    color: #e52f37;
+    font-weight: 600;
+    border-color: #ffffff;
+    border-color: #e52f37;
+}
+
+.last-2 {
+    color: #7C8595;
+    font-size: 16px;
+}
+
+.frequently {
+    color: #071E55;
+    text-align: center;
+}
+
+.lorem-frequently {
+    text-align: center;
+    color: #7C8595;
+    font-size: 17px;
+}
+
+.h-two {
+    font-weight: 700;
+    color: #071E55;
+    font-size: 19px;
+}
+
+.p-two {
+    color: #7C8595;
+    font-size: 17px;
+}
+
+.form {
+    background-image: url("https://demo.epic-webdesign.com/tf-launchpage/v3/images/bg3.jpg");
+    height: 100vh;
+    width: 100%;
+}
+
+.attachmnets-4 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(222, 41, 41, 0.806);
+}
+
+.form-main {
+    text-align: center;
+}
+
+.contact {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.query {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.input-1 {
+    margin-bottom: 1rem;
+    padding-right: 130px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 4px;
+}
+
+.input-2,
+.input-3,
+.input-4 {
+    margin-bottom: 1rem;
+    padding-right: 130px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 4px;
+}
+
+.touch-btn-two {
+    margin-top: 0.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #e52f37;
+    transition: all ease-in-out 0.4s;
+}
+
+.touch-btn-two:hover {
+    background-color: #d1d1d1;
+}
+
+.form {
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+
+    ::placeholder {
+        color: #ffffff;
+    }
+}
+
+#main-area {
+    padding-right: 130px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 4px;
+
+    ::placeholder {
+        color: #ffffff;
+    }
+}
+
+.last-main {
+    font-size: 18px;
+}
+
+.launch {
+    font-weight: 600;
+}
+
+.theme {
+    text-decoration: underline;
+    color: #e52f37;
+}
+
+.follow {
+    text-align: end;
+    font-size: 18px;
+}
+
+#twitter {
+    color: #50a0d2;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+#pinterest {
+    color: #d61a23;
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+#facebook {
+    color: rgb(45, 45, 227);
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+#insta {
+    color: rgb(186, 68, 87);
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 375px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-2 {
+        height: 120vh;
+    }
+
+    .attachments {
+        height: 120vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 110vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 110vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    .last-main {
+        font-size: 15px;
+    }
+
+    .follow {
+        padding-right: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-2 {
+        height: 120vh;
+    }
+
+    .attachments {
+        height: 120vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 85vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 85vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 15px;
+    }
+
+    .follow {
+        padding-right: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-query {
+        padding-left: 3.8rem;
+    }
+
+    .bg-2 {
+        height: 120vh;
+    }
+
+    .attachments {
+        height: 120vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 110vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 110vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    .last-main {
+        font-size: 15px;
+    }
+
+    .follow {
+        padding-right: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 2rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-left: 16rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: -2rem;
+        left: 20.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+
+    #icon-4 {
+        position: relative;
+        left: 4rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: nowrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 2rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-left: 16rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: -4rem;
+        left: -14.3rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+
+    #icon-4 {
+        position: relative;
+        left: 4rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: nowrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 30rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: 3.6rem;
+        left: 13.2rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .bg-3 {
+        height: 70vh;
+    }
+
+    #main-query {
+        margin-right: 0.3rem;
+    }
+
+    .attachments-2 {
+        height: 70vh;
+        background-color: rgba(222, 41, 41, 0.576);
+
+    }
+
+    .bg-2 {
+        height: 100vh;
+    }
+
+    .attachments {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    #row-div-clients {
+        margin-left: 1px;
+    }
+
+    .last-main {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-right: 5.3rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #humburger-icon {
+        border-color: #e52f37;
+        margin-right: 7.5rem;
+    }
+
+    #launch-logo {
+        margin-left: -4rem;
+    }
+
+    #start-btn {
+        display: none;
+        visibility: hidden;
+    }
+
+    #input-main-D {
+        padding-right: 60px;
+        padding-left: 60px;
+        margin-left: 0.5rem;
+        margin-bottom: -5rem;
+    }
+
+    #danger-btn {
+        position: relative;
+        bottom: -1rem;
+        left: 4rem;
+        margin-top: 1.2rem;
+
+    }
+
+    #featured-para {
+        font-size: 21px;
+        padding-bottom: 1rem;
+        text-align: start;
+        position: relative;
+        right: 1rem;
+
+    }
+
+    #main-img-1,
+    #main-img-2,
+    #main-img-3 {
+        width: 10rem;
+        position: relative;
+        left: 4.3rem;
+    }
+
+    #main-img-4 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #clients-img1 {
+        margin-bottom: 1rem;
+    }
+
+    .padding-text1 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-text2 {
+        padding-left: 4rem;
+    }
+
+    .padding-text3 {
+        padding-left: 3.8rem;
+    }
+
+    .padding-query {
+        padding-left: 3.8rem;
+    }
+
+    .bg-2 {
+        height: 130vh;
+    }
+
+    .bg-3 {
+        height: 100vh;
+    }
+
+    .attachments-2 {
+        height: 100vh;
+        background-color: rgba(222, 41, 41, 0.576);
+    }
+
+    .attachments {
+        height: 130vh;
+        background-color: rgba(222, 41, 41, 0.905);
+    }
+
+    #all-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-1 {
+        position: relative;
+        right: 2.7rem;
+    }
+
+    #icon-2 {
+        padding-right: 5.9rem;
+    }
+
+    #icon-3 {
+        padding-right: 1.9rem;
+    }
+
+    #icon-4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #flex-main-container {
+        flex-wrap: wrap;
+        position: relative;
+        right: 3rem;
+    }
+
+    #all-stars-3 {
+        padding-left: 3rem;
+    }
+
+    .flex-discover-container {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card2 {
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card3 {
+        margin-left: -3rem;
+    }
+
+    .team-h {
+        padding-right: 3rem;
+    }
+
+    .discover-seo {
+        padding-right: 3rem;
+    }
+
+    #feature-1 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #feature-3 {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    #main-row-paid {
+        flex-wrap: wrap;
+    }
+
+    #card-1 {
+        margin-bottom: 1rem;
+    }
+
+    .input-2 {
+        margin-left: -1rem;
+    }
+
+    .input-4 {
+        margin-left: -1rem;
+    }
+
+    #main-area {
+        width: 90%;
+        height: 10%;
+    }
+
+    .form {
+        height: 130vh;
+        width: 100%;
+    }
+
+    .attachmnets-4 {
+        height: 130vh;
+        width: 100%;
+        background-color: rgba(222, 41, 41, 0.806);
+    }
+
+    .last-main {
+        font-size: 15px;
+    }
+
+    .follow {
+        padding-right: 3.2rem;
+        font-size: 11px;
+    }
+}
